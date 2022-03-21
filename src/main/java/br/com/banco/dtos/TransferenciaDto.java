@@ -1,18 +1,18 @@
 package br.com.banco.dtos;
 
 import br.com.banco.model.ContaModel;
-import br.com.banco.model.enuns.TipoTransacao;
+import br.com.banco.model.enuns.Tipo;
 import lombok.Data;
 
 
 @Data
-public class TransacaoDto {
+public class TransferenciaDto {
 
 
     private Double valor;
 
     private ContaModel contaModel;
 
-    private TipoTransacao tipoTransacao;
+    private Tipo tipo;
 
 }
